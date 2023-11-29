@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Roboto+Mono:wght@700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>OneCore</title>
+</head>
+<body>
+
+    <!--Navbar-->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md  bg-light">
+            <img src="img/logo.svg"  alt="OneCore" width="90" height="90"  class="d-inline-block align-text-top">
+            <a href="#" class="navbar-brand">
+                <span  style ="font-family:'Prompt', sans-serif; font-size: 170%;" class="d-inline-block">OneCore</span>
+            </a>    
+
+            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle-navigation">
+                <i class="fa-solid fa-list fa-lg" style="color: rgb(83, 160, 83);"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar" >
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item dropdown">
+                        <a href="#" role="button"class="nav-link btn-dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#shopcricket">
+                            <i class="fa-brands fa-shopify fa-fade fa-lg" style="color: rgb(83, 160, 83);"></i>
+                            <span style="font-weight:bold">Shop</span>
+                        </a>
+                        <!--Dropdrown Menu-->
+                        <ul class="dropdown-menu" id="shopcricket">
+                            <li><h5 class="dropdown-header">Cricket Accessories</h5></li>
+                            <li><a class="dropdown-item" href="#">Bats</a></li>
+                            <li><a class="dropdown-item" href="#">Balls</a></li>
+                            <li><a class="dropdown-item" href="#">Cricket Kit</a></li>
+                            <li><a class="dropdown-item" href="#">Helmets</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+
+                        <a href="#" class="nav-link btn-dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-target="#crickettips">
+                            <i class="fa-solid fa-baseball-bat-ball fa-fade fa-lg" style="color: rgb(83, 160, 83);"></i>
+                            <span style="font-weight:bold">ProTips</span>
+                        </a>
+
+                         <!--Dropdrown Menu-->
+                         <ul class="dropdown-menu" id="crickettips">
+                            <li><h5 class="dropdown-header">Cricket Videos</h5></li>
+                            <li><a class="dropdown-item" href="batting.html">Batting</a></li>
+                            <li><a class="dropdown-item" href="bowling.html">Bowling</a></li>
+                            <li><a class="dropdown-item" href="wicketkeeping.html">Wicket keeping</a></li>
+                            <li><a class="dropdown-item" href="fielding.html">Fielding</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#registermodal">
+                            <i class="fa-solid fa-right-to-bracket fa-fade fa-lg" style="color: rgb(83, 160, 83);"></i>
+                            <span style="font-weight:bold">Register</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="basket.html" class="nav-link cartBasket">
+                            <i class="fa-solid fa-cart-arrow-down fa-flip" style="color: rgb(83, 160, 83);"></i>
+                            <span style="font-weight:bold">MyBasket</span>
+                            <div class="cartItems">
+                                0
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+      </nav>
+    </header>
+
+
+
+    <!--Carousel-->
+    <div class="carousel slide carousel-fade" id="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="">
+                    <img src="img/SS img.jpg" class="cimage d-block w-100 " height="400" alt="ss">
+
+                    <div class="carousel-caption d-none d-md-block" style="color:white ;">
+                        <h3 style="font-weight: bolder;">Welcome to <span style="font-weight: bolder; color: rgb(45, 102, 45);">OneCore</span>  Family!</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/MRF 2 img" class="cimage d-block w-100"  height="400" alt="mrf">
+
+                    <div class="carousel-caption d-none d-md-block" style="color:rgb(19, 14, 14) ;">
+                        <h3 style="font-weight: bolder;">We're Official  Partners of MRF Cricket</h3>
+                    </div>
+                     
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/new balance.png" class="cimage d-block w-100" height="400" alt="nb">
+
+                    <div class="carousel-caption d-none d-md-block" style="color:white ;">
+                        <h3 style="font-weight: bolder;">We're Official Partners of New Balance Cricket</h3>
+
+                        <p style="font-weight: bolder;">We're Happily Welcome you and <br>
+                            We are Proud Partners of New balance Sport.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/Cricket_Helmets img" class="cimage d-block w-100 " height="400" alt="ceat">
+
+                    <div class="carousel-caption d-none d-md-block" style="color:rgb(248, 245, 245) ;">
+                        <h3 style="font-weight: bolder;">We're Official Seller's of Cricket Helmets</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/SG img" class="cimage d-block w-100" height="400" alt="ceat">
+
+                    <div class="carousel-caption d-none d-md-block" style="color:rgb(7, 7, 6) ;">
+                        <h3 style="font-weight: bolder;">We're Official  Partners of SG Cricket</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/All in one img.png" class="cimage d-block w-100" height="400" alt="ca">
+
+                    <div class="carousel-caption d-none d-md-block" style="color:rgb(4, 10, 4) ;">
+                        <h3 style="font-weight: bolder;">Bring The Best in the Business</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/Keeping pads etc img" class="cimage d-block w-100" height="400" alt="ca">   
+                    
+                    <div class="carousel-caption d-none d-md-block" style="color:white ;">
+                        <h3 style="font-weight: bolder;">Use Soft Hands to Grab </h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--For side button-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+        <!--For bottom page indicator-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+
+    </div>
+
+    <!--Main Content-->
+    <div class="mainContainer">
+        <div class="academyContainer"> 
+            <div class="academyContent">
+                <h1>THE ONECORE ACADEMY</h1>
+                <div class="academyPara">
+                    The <span style="font-weight: bold;">OneCore Academy</span> provides opportunities for cricketers of any age, gender, race, ability and location to play and enjoy cricket.  
+                    <br>
+                    <br>
+                    Our principles are to encourage players to:
+                    <br>
+                    <ul class="academyList">
+                        <li class="academylt">Enjoy all aspects of the game and develop a healthy competitive spirit </li>
+                        <li class="academylt">Express their own natural talents</li>
+                        <li class="academylt">Understand that team objectives are more important than individual performances</li>
+                        <li class="academylt">Appreciate excellence and enjoy the success of other players </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="academyImage">
+                <img src="img/Academy image" alt="no">
+            </div>
+        </div>
+
+        <div class="collection">
+            <div class="categories">FEATURED  CATEGORIES</div>
+            <div class="fcItems">
+                <a href="product.html" class="featured">
+                    <img class="collect" src="img/bat collection.jpg" alt="no">
+                </a>
+                <a href="#" class="featured">
+                    <img class="collect" src="img/ball collection.jpg" alt="no">
+                </a>
+                <a href="#" class="featured">
+                    <img class="collect" src="img/kit bag collection.jpg" alt="no">
+                </a>
+                <a href="#" class="featured">
+                    <img class="collect" src="img/helmet collection" alt="no">
+                </a>
+            </div>
+        </div>
+
+        <div class="playout">
+        </div>
+       
+        <div class="collection">
+            <div class="categories">COACHING LIBRARY</div>
+            <div class="fcItems">
+                <a href="batting.html" class="featured">
+                    <img class="collect" src="img/batting home.jpg" alt="no">
+                </a>
+                <a href="bowling.html" class="featured">
+                    <img class="collect" src="img/bowling home.jpg" alt="no">
+                </a>
+                <a href="fielding.html" class="featured">
+                    <img class="collect" src="img/fielding home.jpg" alt="no">
+                </a>
+                <a href="wicketkeeping.html" class="featured">
+                    <img class="collect" src="img/wicketkeeping home.jpg" alt="no">
+                </a>
+            </div>
+        </div>
+
+                
+        <div class="academyContainer1"> 
+            <div class="academyImage1">
+                <img src="img/library.jpg" alt="no">
+            </div>
+
+            <div class="academyContent1">
+                <h1>TRAIN WITH US</h1>
+                <div class="academyPara1">
+                    The <span style="font-weight: bold;">OneCore Academy</span> coaching library makes it is easy to find all the drills and skills you are looking for in just a few clicks. With some cricket coaching videos to watch - build your own training sessions with EASE! 
+
+                    <br>
+                            
+                    <ul class="academyList1">
+                        <li class="academylt">Batting</li>
+                        <li class="academylt">Bowling</li>
+                        <li class="academylt">Fielding</li>
+                        <li class="academylt">Wicketkeeping</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <!--Footer-->
+    <footer>
+        <div class="foot-Partners">
+            <h1 style="font-weight:500 ;">Board Partners</h1>
+            <div class="board">
+                <div class="brand">
+                    <img src="img/Root academy logo"  class="Partnerslogo" alt="Rootacademy"> <br>
+                    <p><h6 style="font-weight:lighter">Root Academy</h6></p>
+                </div> 
+
+                <div class="brand">
+                    <img src="img/Kookkaburra logo.jpeg"  class="Partnerslogo" alt="Kookkaburra"> <br>
+                    <p><h6 style="font-weight:lighter">Kookkaburra</h6></p>
+                </div> 
+
+                <div class="brand">
+                    <img src="img/SS Sport logo.jpeg"  class="Partnerslogo" alt="sssport"> <br>
+                    <p><h6 style="font-weight:lighter">SS Sport</h6></p>
+                </div> 
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="foot-all">
+            <div class="all">
+                <ul class="contact">
+                    <li>  <h3 style="font-weight:550">Shop</h3></li>
+                    <li><a  href="#">Bats</a></li>
+                    <li><a  href="#">Balls</a></li>
+                    <li><a  href="#">Cricket Kit</a></li>
+                    <li><a  href="#">Helmets</a></li>
+                </ul>
+            </div>
+            <div class="all">
+                <ul class="contact">
+                    <li><h3 style="font-weight:550">Categories</h3></li>
+                    <li><a  href="batting.html">Batting</a></li>
+                    <li><a  href="bowling.html">Bowling</a></li>
+                    <li><a  href="wicketkeeping.html">Wicket keeping</a></li>
+                    <li><a  href="fielding.html">Fielding</a></li>
+                </ul>
+            </div>
+            <div class="all">
+                <ul class="contact">
+                    <li> <h3 style="font-weight:550">Information</h3></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="design" style="background-color: #424242;">
+            <p><img src="img/logo.svg" alt="logo" style="width: 4%;">OneCore | @2023 OneCore Pty Ltd | Terms & Conditions <br> Website design by -- Kishanks</p>
+        </div>
+    </footer>
+
+    <!--Modal login-->
+    <div class="modal fade"  data-bs-backdrop="static" id="loginmodal" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header ">
+                    <h5 class="modal-title d-inline-block ms-auto" id="loginform">
+                        <i class="fa-solid fa-user fa-sm  " style="color:  rgb(83, 160, 83);"></i>
+                        LOGIN
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="mb-3 mt-3 ">
+                            <label for="email" class="form-label">Email</label>  <br>
+                            <input type="email" class="form-control" name="email" id="email"  placeholder="Enter your Email ID" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Password</label>  <br>
+                            <input type="password" class="form-control" name="password" id="password"  placeholder="************" readonly>
+                        </div>
+
+                        <div class="d-grid">
+                            <button class="btn btn-success btn-block" id="login" type="submit" >
+                                <i class="fa-solid fa-caret-right fa-lg" style="color: white;"></i>
+                                Login
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---Modal Register-->
+    <div class="modal fade"  data-bs-backdrop="static" id="registermodal" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                   
+                    <h5 class="modal-title d-inline-block ms-auto " id="registerform">
+                        <i class="fa-solid fa-user fa-sm  " style="color: rgb(83, 160, 83)"></i>
+                        REGISTRATION
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="mb-3 mt-2 ">
+                            <label for="text" class="form-label">Name</label>  <br>
+                            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Full Name" required>
+                        </div>
+
+                        <div class="mb-3 mt-3 ">
+                            <label for="email" class="form-label">Email</label>  <br>
+                            <input type="email" class="form-control" name="email" id="email"  placeholder="Enter your Email ID" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Password</label>  <br>
+                            <input type="password" class="form-control" name="password" id="password"  placeholder="************" readonly>
+                        </div>
+
+                        <div class="d-grid">
+                            <button class="btn btn-success btn-block" id="register" type="submit">
+                                <i class="fa-solid fa-caret-right fa-lg" style="color: white;"></i>
+                                Register
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="modal-footer  d-flex justify-content-start"> 
+                    Already have an account?<a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal">login</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="javascript/cart.js"></script>
+    <script src="javascript/product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

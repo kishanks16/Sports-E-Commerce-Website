@@ -1,0 +1,548 @@
+*{
+    font-family:  'Roboto', sans-serif ;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media all and (max-width:1000px){
+    .academyContainer{
+        width: 94%;
+        min-height: 100vh;
+    }
+    
+    .academyImage img{
+        max-width: 100%;   
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .academyImage{
+        min-height: 90vh;
+        max-width: 50%;
+        overflow: hidden;
+    }
+    .categories{
+        width: 100%;
+    }    
+    
+    .academyContainer1{
+        width: 94%;
+        min-height: 80vh;
+    }
+
+    .academyContent1{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    .academyContent1 h1{
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .academyImage1 img{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .academyImage1{
+        min-height: 90vh;
+        max-width: 50%;
+    }
+
+    .collect{
+        width: 100%;
+        min-height: 45vh;
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width:800px){
+    .academyContainer{
+        width: 94%;
+        height: 173vh;
+        flex-direction: column;
+    }
+    
+    .academyContent{
+        min-width: 95%;
+        margin-top: 5%;
+    }
+    
+    .academyContent h1{
+        margin-left:15% ;
+        padding-top: 4%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .academyPara{
+        margin-left: 1%;
+        padding-bottom: 3%;
+    }
+    
+    .academyImage img{
+        max-width: 100%;
+        max-height: 90%;
+    }
+    
+    .academyImage{
+        min-height: 90vh;
+        max-width: 100%;
+    }
+    
+    .academyContainer1{
+        width: 94%;
+        height: 163vh;
+        flex-direction: column;
+    }
+    
+    .academyContent1{
+        min-width: 100%;
+        margin-top: 5%;
+    }
+    
+    .academyContent1 h1{
+        margin-right: 12%;
+        padding-top: 4%;
+    }
+    
+    .academyPara1{
+        padding: 2%;
+        margin-left: 1%;
+        font-weight: 500;
+        padding-bottom: 3%;
+    }
+    
+    .academyImage1 img{
+        max-width: 100%;
+        min-height: 20vh;
+    }
+    
+    .academyImage1{
+        height: 70vh;
+        max-width: 100%;
+    }
+
+    .categories{
+        width: 100%;
+    }    
+    
+    .collect{
+        width: 100%;
+        min-height: 40vh;
+        margin-top: 5%;
+    }    
+}
+
+@media all and (max-width:600px){
+    .academyContainer{
+        width: 94%;
+        height: 155vh;
+        flex-direction: column;
+    }
+    
+    .academyContent{
+        min-width: 95%;
+        margin-top: 5%;
+    }
+    
+    .academyContent h1{
+        margin-left:15% ;
+        padding-top: 4%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .academyPara{
+        padding: 2%;
+        margin-left: 1%;
+        padding-bottom: 3%;
+    }
+    
+    .academyImage img{
+        max-width: 100%;
+        max-height: 70%;
+    }
+    
+    .academyImage{
+        min-height: 90vh;
+        max-width: 100%;
+    }
+
+    .academyContainer1{
+        width: 94%;
+        height: 163vh;
+        flex-direction: column;
+    }
+    
+    .academyContent1{
+        min-width: 100%;
+        margin-top: 5%;
+    }
+    
+    .academyContent1 h1{
+        margin-right: 12%;
+        padding-top: 4%;
+    }
+    
+    .academyPara1{
+        padding: 2%;
+        margin-left: 1%;
+        font-weight: 500;
+        padding-bottom: 3%;
+    }
+    
+    .academyImage1 img{
+        max-width: 100%;
+        min-height: 20vh;
+    }
+    
+    .academyImage1{
+        height: 70vh;
+        max-width: 100%;
+    }
+
+    .cimage{
+        width: 100;
+        height: 250px;
+    }
+    .all{
+        width: 100%;
+        text-align: center;
+    }
+    .brand{
+        width: 100%;
+        text-align: center;
+    }
+    .foot-Partners h1{
+        padding-top: 3%;
+    }
+    .categories{
+        width: 80%;
+        margin-left: 10%;
+    }    
+    
+    .collect{
+        width: 100%;
+        min-height: 30vh;
+        margin-top: 5%;
+    }
+   
+}
+    
+
+@media all and (max-width:450px){
+    .academyContainer{
+        width: 94%;
+        height: 163vh;
+        flex-direction: column;
+    }
+    
+    .academyContent{
+        min-width: 100%;
+        margin-top: 5%;
+    }
+    
+    .academyContent h1{
+        margin-right: 12%;
+        padding-top: 4%;
+    }
+    
+    .academyPara{
+        padding: 2%;
+        margin-left: 1%;
+        font-weight: 500;
+        padding-bottom: 3%;
+    }
+    
+    .academyImage img{
+        max-width: 100%;
+        max-height: 70%;
+    }
+    
+    .academyImage{
+        min-height: 100vh;
+        max-width: 100%;
+    }
+
+
+    .academyContainer1{
+        width: 94%;
+        height: 163vh;
+        flex-direction: column;
+    }
+    
+    .academyContent1{
+        min-width: 100%;
+        margin-top: 5%;
+    }
+    
+    .academyContent1 h1{
+        margin-right: 12%;
+        padding-top: 4%;
+    }
+    
+    .academyPara1{
+        padding: 2%;
+        margin-left: 1%;
+        font-weight: 500;
+        padding-bottom: 3%;
+    }
+    
+    .academyImage1 img{
+        max-width: 100%;
+        min-height: 20vh;
+    }
+    
+    .academyImage1{
+        height: 70vh;
+        max-width: 100%;
+    }
+
+    .mainContainer{
+        max-height: 100%;
+    }
+
+    .categories{
+        width: 70%;
+        margin-left: 10%;
+    }    
+    
+    .collect{
+        width: 100%;
+        min-height: 28vh;
+        margin-top: 5%;
+    }
+    
+}
+
+
+
+footer{
+    background-color: #2d2e33;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0;
+    
+}
+.design p{
+    text-align: center;
+}
+.foot-Partners{
+    text-align: center;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+
+.board{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content:space-evenly;   
+}
+.Partnerslogo{
+    width: 80px;
+    border-radius: 50%;
+}
+#navbar span:hover{
+    color: gray;
+   
+}
+.dropdown-menu li a:hover{
+    background-color:palegreen ;
+    width: 100%;
+}
+
+.all li a:hover{
+    color: gray;
+    padding-left: 3px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.foot-all{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-around;
+    color: white;
+    padding-top: 3%;
+}
+
+a,ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.academyContainer{
+    background-color: rgb(230, 228, 228);
+    width: 94%;
+    min-height: 80vh;
+    margin: 3%;
+    display: flex;
+}
+
+.academyContent{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.academyContent h1{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.academyPara{
+    padding: 5%;
+    font-weight: 500;
+}
+
+.academyImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.academyImage{
+    min-height: 90vh;
+}
+
+.academyList{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 1%;
+    padding: 3px;
+    font-weight: 500;
+}
+
+.academyList li{
+    color: black;
+    list-style: disc;
+}
+
+
+
+.academyContainer1{
+    background-color: rgb(230, 228, 228);
+    width: 94%;
+    min-height: 80vh;
+    margin: 3%;
+    display: flex;
+}
+
+.academyContent1{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.academyContent1 h1{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.academyPara1{
+    padding: 5%;
+    font-weight: 500;
+}
+
+.academyImage1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.academyImage1{
+    min-height: 90vh;
+}
+
+.academyList1{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 1%;
+    padding: 3px;
+    font-weight: 500;
+}
+
+.academyList1 li{
+    color: black;
+    list-style: disc;
+}
+
+
+.collection{
+    width: 100%;
+    background-color: rgb(235, 238, 235);
+}
+
+.categories{
+    font-weight:900;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.featured{
+    text-decoration: none;
+    transition: .2s;     
+}
+
+.featured:hover{
+    transform: translate(1px, -7px);
+}
+
+.collect:hover{
+    opacity: 0.7;
+}
+
+.fcItems{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.collect{
+    width: 100%;
+    height: 80%;
+    border: 2px solid rgb(175, 172, 172);    
+}
+
+.playout{
+    background-image: url('../img/playout.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    min-height: 60vh;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+}
+
+
+.cartBasket{
+    position: relative;
+    display: flex;
+}
+.cartItems{
+    background-color:rgb(192, 189, 189);
+    width: 15px;
+    height: 18px;
+    color: rgb(8, 8, 8);
+    font-size: small;
+    text-align: center;
+    border-radius: 35%;
+    position: absolute;
+    bottom: 28px;
+    left: 85px;
+}
+
+

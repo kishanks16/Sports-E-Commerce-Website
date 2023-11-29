@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media all and (max-width:1000px){
+    .frame iframe{
+        width: 500px;
+        overflow: hidden;
+        height:400px;       
+    }
+    
+    .related{
+        margin-top: 0;
+        margin-right: 2%;
+    }
+}
+
+
+@media all and (max-width:850px){
+    .frame iframe{
+        width: 500px;
+        overflow: hidden;
+        height:700px;       
+    }
+    
+    .related{
+        margin-top: 0;
+        margin-right: 2%;
+    }
+}
+
+
+@media all and (max-width:768px){
+    .frame iframe{
+        width: 595px;
+        overflow: hidden;
+        height:350px;       
+    }
+    .coaching{
+        flex-direction: column; 
+    }
+    .related{
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+}
+
+
+@media all and (max-width:600px){
+    .frame iframe{
+        width: 480px;
+        overflow: hidden;
+        height:350px;       
+    }
+    .coaching{
+        flex-direction: column; 
+    }
+    .related{
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+}
+
+@media all and (max-width:450px){
+    .professional{
+        max-width: 100;
+    }
+    .bowling{
+        max-width: 60%;
+        height:5px;
+    }
+
+    .frame iframe{
+        width: 350px;
+        overflow: hidden;
+        height:300px;       
+    }
+    .coaching{
+        flex-direction: column; 
+    }
+
+}
+
+.batting{
+    background-image: url('../img/i');
+    background-attachment: fixed;
+    max-width: 100%;
+    min-height: 70vh;
+    background-size: cover;
+    padding: 8%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+}
+
+.batting h1{
+    text-align: center;
+    color: white;
+    padding-top: 8%;
+    font-weight: bolder;
+}
+
+.head{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 50px;
+}
+.all p{
+    padding-top: 2%;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    padding-bottom:5%;
+}
+
+
+.coaching{
+    padding-left: 3%;
+    display: flex;
+}
+
+.related{
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-top: 1%;
+    max-width:100%;
+}
+.related h3{
+    font-weight: bolder;
+}
+.related p{
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.cartBasket{
+    position: relative;
+    display: flex;
+}
+.cartItems{
+    background-color:rgb(192, 189, 189);
+    width: 15px;
+    height: 18px;
+    color: rgb(8, 8, 8);
+    font-size: small;
+    text-align: center;
+    border-radius: 35%;
+    position: absolute;
+    bottom: 28px;
+    left: 85px;
+}
+
+

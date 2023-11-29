@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media all and (max-width:1000px){
+    .card{
+        flex-basis: 100%;
+        max-width: 25%;
+        flex-direction: column;
+    }
+
+    .PriceQuantity{
+        max-width: 32%;
+        
+    }
+}
+
+@media all and (max-width:800px){
+    .card{
+        flex-basis: 100%;
+        max-width: 33%;
+        flex-direction: column;
+    }
+
+    .PriceQuantity{
+        max-width: 22%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+@media all and (max-width:600px){
+    .card{
+        flex-basis: 100%;
+        max-width: 50%;
+        flex-direction: column;
+    }
+
+    .PriceQuantity{
+        max-width: 22%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+
+@media all and (max-width:450px){
+    .card{
+        flex-basis: 100%;
+        max-width: 50%;
+        flex-direction: column;
+    }
+
+    .PriceQuantity{
+        max-width: 32%;
+        padding: 4%;
+    }
+   
+}
+
+.card-container{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.card{
+    border: 1px solid rgb(168, 166, 166);
+    width: 25%;
+}
+
+.image-con{
+    display: flex;
+    justify-content: center;
+    height:180px;
+    margin-top: 5%;
+}
+
+.img-product{ 
+    min-width: 80%;
+    max-height: 100%;
+}
+
+.product-name{
+    color: rgb(59, 59, 59);
+    margin-left: 8%;
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 10%;
+}
+.product-price{
+    margin-left: 110%;
+    font-weight:bolder;
+    font-size: larger;
+    margin-top: 10%;
+  
+}
+.addToCart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.acart{
+    width: 90%;
+    border: 3px solid  rgb(83, 160, 83);
+    margin: 7% 5%;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.PriceQuantity{
+    display: flex;
+    width: 40%;
+    padding: 4%;
+}
+
+.quantityContainer{
+    margin-top:10% ;
+    margin-left: 60%;
+}
+
+.quantityContainer select{
+    padding: 2px; 
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 15%;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.quantityContainer select:hover{
+    border: 2px solid green;
+    transition: ease;
+}
+

@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media all and (max-width:1000px){
+    .basketItems{
+        min-width: 120%;
+    }
+    .orderContainer{
+        min-width: 31%;
+    }    
+}
+
+@media all and (max-width:800px){
+    .basketOrder{
+        flex-direction: column;
+    }
+    .basketItems{
+        min-width: 180%;
+    }
+    .basketContanier{
+        min-width: 10vw;
+    }
+    .basketImage{
+        max-width: 20%;
+        min-height: 10%;
+    }   
+    
+    .basketImg{
+        width: 100%;
+        height: 100%;
+    }
+    .itemQuantity{
+        font-size: 18px;
+    }
+    .itemName{
+        font-size:18px ;
+    }
+    .itemPrice{
+        font-size: 18px;
+    }
+    .Modify{
+        margin-right: 10%;
+    }
+    .basket{
+        font-size: large;
+    }
+    .orderContainer{
+        min-width: 40%;
+        height: fit-content;
+        margin-bottom: 8%;
+    }
+    
+}
+
+@media all and (max-width:600px){
+    .basketOrder{
+        flex-direction: column;
+    }
+
+    .basketItems{
+        min-width: 190%;
+    }
+    .basketContanier{
+        min-width: 10vw;
+    }
+    .basketImage{
+        min-width: 19%;
+        max-height: 10%;
+    }    
+    .basketImg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .itemQuantity{
+        font-size: 17px;
+    }
+    .itemName{
+        font-size:17px ;
+    }
+    .itemPrice{
+        font-size: 17px;
+    }
+    .Modify{
+        margin-right: 10%;
+    }
+    .basket{
+        font-size: large;
+    }
+    .orderContainer{
+        min-width: 57%;
+        height: fit-content;
+        margin-bottom: 8%;
+    }
+   
+}
+
+
+@media all and (max-width:450px){
+    .basketOrder{
+        flex-direction: column;
+    }
+
+    .basketItems{
+        min-width: 190%;
+    }
+    .basketContanier{
+        min-width: 10vw;
+    }
+    .basketImage{
+        min-width: 20%;
+        min-height: 100%;
+    }    
+    .basketImg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .itemQuantity{
+        font-size: 15px;
+    }
+    .itemName{
+        font-size:15px ;
+    }
+    .itemPrice{
+        font-size: 15px;
+    }
+    .Modify{
+        margin-right: 10%;
+    }
+    .basket{
+        font-size: large;
+    }
+    .orderContainer{
+        min-width: 68%;
+        height: fit-content;
+        margin-bottom: 8%;
+    }
+    
+}
+
+.basketOrder{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+.basket{
+    margin-top: 5%;
+    margin-left: 6%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+}
+
+.basketContanier{
+    margin-top: 3%;   
+    width: 50%;
+}
+
+.basketItems{
+    display: flex;
+    margin: 2%;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+.basketContent{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.itemQuantity{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.itemPrice{
+    margin-left: 5%;
+    margin-top: 4%;
+    color: rgb(92, 92, 89);
+}
+
+.Modify{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.modifyBtn1{
+   padding: 10%;
+   padding-left: 15%;
+   padding-right: 15%;
+   background-color: rgb(16, 151, 16);
+   border: none;
+   border-radius: 10%;
+   color: white;
+   font-weight: bold;
+   margin-bottom: 15%;
+}
+.modifyBtn2{
+    padding: 10%;
+    background-color: rgb(204, 13, 6);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.basketImage{
+    width: 30%;
+    min-height: 20%;
+    margin: 2%;
+}
+
+.basketImg{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.orderContainer{
+    width: 25%;
+    height: fit-content;
+    border: 1px solid rgb(177, 175, 175);
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.order{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 7%;
+    text-align: center;
+    margin-bottom: 11%;
+}
+
+.orderDetails{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-bottom: 7%;
+}
+
+.orderTotal{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.orderBtn{
+    margin-top: 12%;
+    margin-bottom: 7%;
+}
+
+.checkoutBtn{
+    border-radius: 4%;
+    margin: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 31%;
+    padding-right: 30%;
+    background-color: rgb(24, 211, 24);
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+.cartBasket{
+    position: relative;
+    display: flex;
+}
+.cartItems{
+    background-color:rgb(192, 189, 189);
+    width: 15px;
+    height: 18px;
+    color: rgb(8, 8, 8);
+    font-size: small;
+    text-align: center;
+    border-radius: 35%;
+    position: absolute;
+    bottom: 28px;
+    left: 85px;
+}
+
+
